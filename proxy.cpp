@@ -12,8 +12,8 @@
 #include <netdb.h>
 
 
-const int PROXY_PORT = 8888;
-const int THREAD_POOL_SIZE = 4;
+const int PROXY_PORT = 8080;
+const int THREAD_POOL_SIZE = 10;
 
 std::queue<int> client_sockets;
 std::mutex queue_mutex;
